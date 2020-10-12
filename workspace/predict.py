@@ -33,6 +33,7 @@ top_k = args.top_k
     
 label_map = args.category_names
 
+image_size = 224
 
 #Label Map
 with open(label_map, 'r') as f:
